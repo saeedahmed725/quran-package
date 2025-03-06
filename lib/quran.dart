@@ -455,7 +455,7 @@ String getVerseTranslation(int surahNumber, int verseNumber,
 
   return verse +
       (verseEndSymbol
-          ? getVerseEndSymbol(verseNumber, arabicNumeral: false)
+          ? ' ($verseNumber)'
           : "");
 }
 
